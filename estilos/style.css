@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+:root{
+--paleta01: #9d2e21;
+--paleta02: #f8e0c7;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+div{
+    min-height: 100px;
+    background-image: url('../imagens/baner-superior2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main{
+    height: 89.55vh;
+    background-image: url('../imagens/img_1920-granolei.cafe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main > h1{
+    font-family: sans-serif;
+    color: var(--paleta01);
+    text-align: center;
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
+    background-color: var(--paleta02);
+}
